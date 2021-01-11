@@ -54,7 +54,7 @@ public class EmailReport extends TestBase {
 					+ "\n" + "Note : This is an automatic generated mail by Automation Script" + "\n" + "\n" + "\n"
 					+ "\n" + "Thank you," + "\n" + "Phanindraa");
 			MimeBodyPart messageBodyPart2 = new MimeBodyPart();
-			File file = new File("D:\\Git\\TransportalRestAssuredAPI\\RestAssuredAPIAutomation\\Reports\\Report.html");
+			File file = new File("D:\\Git\\RestAssuredAutomation\\RestAssuredAutomation\\Reports\\Report.html");
 			String fileName = "Test Report.html";
 			DataSource source = new FileDataSource(file);
 			messageBodyPart2.setDataHandler(new DataHandler(source));

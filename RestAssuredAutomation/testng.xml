@@ -7,6 +7,7 @@
 	<test thread-count="5" name="TransportalAPITests">
 		<classes>
 			<class name="com.TestCases.TC_001_GET_loginPage" />
+			<class name="com.TestCases.TC_002_Post_ValidateHomePage" />
 			<class name="emailReport.EmailReport" />
 		</classes>
 	</test> <!-- Test -->

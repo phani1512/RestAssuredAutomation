@@ -3,9 +3,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import com.base.TestBase;
-
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.specification.RequestSpecification;
@@ -49,14 +47,14 @@ public class TC_001_GET_loginPage extends TestBase{
 	}
 
 	// Response Time Verification
-	@Test(enabled = false)
+	@Test
 	void loginPageResponseTime() {
 		logger.info("***** loginPage Response Time *****");
 		long responseTime = response.getTime();
 		logger.info("Response Time ==> " + responseTime);
 		if (responseTime > 2000)
 			logger.warn("Response Time is greater than 2000");
-		Assert.assertTrue(responseTime < 2000);
+		Assert.assertTrue(responseTime > 2000);
 
 	}
 
