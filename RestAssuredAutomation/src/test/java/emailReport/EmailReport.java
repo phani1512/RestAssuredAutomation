@@ -50,7 +50,7 @@ public class EmailReport extends TestBase {
 			message.setRecipients(Message.RecipientType.TO, InternetAddress.parse("phaneendraphani22@yahoo.in"));
 			message.setSubject("Testing Subject.html");
 			BodyPart messageBodyPart1 = new MimeBodyPart();
-			messageBodyPart1.setText("Hi," + "\n" + "Please, find the Automation test Report for Transportal API" + "\n"
+			messageBodyPart1.setText("Hi," + "\n" + "Please, find the Automation test Report for API" + "\n"
 					+ "\n" + "Note : This is an automatic generated mail by Automation Script" + "\n" + "\n" + "\n"
 					+ "\n" + "Thank you," + "\n" + "Phanindraa");
 			MimeBodyPart messageBodyPart2 = new MimeBodyPart();

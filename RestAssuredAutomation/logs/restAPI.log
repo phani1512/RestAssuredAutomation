@@ -2767,3 +2767,61 @@
 2021-01-11 22:38:05 INFO  TransportalRestAPI:49 - Status Code ==> 200
 2021-01-11 22:38:05 INFO  TransportalRestAPI:56 - ***** ValidateloginPage Status Line *****
 2021-01-11 22:38:05 INFO  TransportalRestAPI:58 - Status Line ==> HTTP/1.1 200 OK
+2021-01-12 00:51:18 INFO  TransportalRestAPI:16 - ***** Started TC001_Get_URLPage *****
+2021-01-12 00:51:24 INFO  TransportalRestAPI:81 - ***** loginPage Content Encoding *****
+2021-01-12 00:51:24 INFO  TransportalRestAPI:83 - Content Encoding is ==> gzip
+2021-01-12 00:51:24 INFO  TransportalRestAPI:88 - ***** loginPage Content Length *****
+2021-01-12 00:51:24 INFO  TransportalRestAPI:90 - Content Length is ==> 1777
+2021-01-12 00:51:24 INFO  TransportalRestAPI:63 - ***** loginPage Content Type *****
+2021-01-12 00:51:24 INFO  TransportalRestAPI:65 - Content Type is ==> text/html
+2021-01-12 00:51:24 INFO  TransportalRestAPI:24 - ***** loginPage Response Body *****
+2021-01-12 00:51:24 INFO  TransportalRestAPI:26 - Response Body ==> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trans-Portal</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="node_modules/style/index.css">
+    <link rel="stylesheet" href="node_modules/style/syncfusion.css">
+    <link rel="shortcut icon" href="./assets/images/TransPortal-logo-icon.ico" type="image/x-icon">
+</head>
+<body ng-app="trans-portal">
+    <div ng-show="$root.initialLoading" class="iniital-loader">
+        <img src="/assets/images/TransPortal-logo.png" alt="">
+        <div>
+            <i class="mdi mdi-spin mdi-loading"></i>
+        </div>
+    </div>
+    <ui-view></ui-view>
+    <script src="https://secure.aadcdn.microsoftonline-p.com/lib/0.2.3/js/msal.min.js"></script>
+    <script src="node_modules/index.js"></script>
+    <script src="node_modules/index2.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/script2.js"></script>
+    <script src="assets/js/script.wijmo.js"></script>
+    <script src="node_modules/syncfusion.js" async></script>
+    <script src="https://transportal-uat-m.azurewebsites.net/onedrive/oneDriveConfig.js"></script>
+    <script src="https://transportal-uat-m.azurewebsites.net/dropbox/dropBoxConfig.js"></script>
+    <script src="app.js"></script>
+    <script>
+        wijmo.setLicenseKey("transportal.azurewebsites.net,325426317276318#B0MYwpjIyNHZisnOiwmbBJye0ICRiwiI34TU8pFc9w4VqV6dxtCUmlnaTdDT5x6M0dTaoF7VwZle8YlcKx4R8lldLBDUwVFa5smM4pWOVFkdXBTdTJ7MmFWbwJ4aIt6RXxUQShVN9ljQrZ7QulHT0lTO8RDTzA7Q6cjeFRWTyEUd0pVRXhXaht4dkl6NvxUZydESBdXMhFjbD9Wa9dldil5NEJzaFBTT8oVaGtCRmZ5RO5UO0lHMnVmMYVnNLZTesdXcYl4cydDcz3kd0JWRrg4YrMlVmdmaNJjR7lVerUlMIx6ZGRHN4sGUyZUUL3EMDhkZUNHZYhVSaZmU626Q9M4U92kcwMFNH3kTYxURNVFNaRGapBXNaJ5MPpVWvsicqpUYrZmY4JzcV96artCNVN6QpJjasZ6TTdXZhBXZ64EUXlXT8xkerlUYIxkNKdDdChzLYJ4ah54KPF4RpJHerInSIZTbzl5d95UVoRVMOVkI0IyUiwiI6gDO6YTRwQjI0ICSiwiN4gDO5YTN9ITM0IicfJye35XX3JSSwIjUiojIDJCLi86bpNnblRHeFBCI4VWZoNFelxmRg2Wbql6ViojIOJyes4nI5kkTRJiOiMkIsIibvl6cuVGd8VEIgIXZ7VWaWRncvBXZSBybtpWaXJiOi8kI1xSfis4N8gkI0IyQiwiIu3Waz9WZ4hXRgAydvJVa4xWdNBybtpWaXJiOi8kI1xSfiQjR6QkI0IyQiwiIu3Waz9WZ4hXRgACUBx4TgAybtpWaXJiOi8kI1xSfiMzQwIkI0IyQiwiIlJ7bDBybtpWaXJiOi8kI1xSfiUFO7EkI0IyQiwiIu3Waz9WZ4hXRgACdyFGaDxWYpNmbh9WaGBybtpWaXJiOi8kI1tlOiQmcQJCLiADM6EzNwAyNwEDMxIDMyIiOiQncDJCLiQXZu9yclRXazJWZ7Vmc5pXYuwWY4J7bwNnbhJHdiojIz5GRiwiIuMmbJBycu3Wa4VHbvNFIUlEWiojIh94QiwiI8EzM6cjM7EzM6IDN5IzMiojIklkIs4nIyYXOxAjMiojIyVmdiwZZsx");
+    </script>
+</body>
+</html>
+2021-01-12 00:51:24 INFO  TransportalRestAPI:72 - ***** loginPage Server Type *****
+2021-01-12 00:51:24 INFO  TransportalRestAPI:74 - Server Type is ==> Microsoft-IIS/10.0
+2021-01-12 00:51:24 INFO  TransportalRestAPI:42 - ***** loginPage Status Line *****
+2021-01-12 00:51:24 INFO  TransportalRestAPI:44 - Status Line ==> HTTP/1.1 200 OK
+2021-01-12 00:51:24 INFO  TransportalRestAPI:33 - ***** loginPage Status Code *****
+2021-01-12 00:51:24 INFO  TransportalRestAPI:35 - Status Code ==> 200
+2021-01-12 00:51:24 INFO  TransportalRestAPI:98 - ***** Finished TC001_Get_URLPage *****
+2021-01-12 00:51:24 INFO  TransportalRestAPI:17 - ***** Started TC002_Post_ValidateLoginPage *****
+2021-01-12 00:51:40 INFO  TransportalRestAPI:31 - ***** loginPage Response Body *****
+2021-01-12 00:51:40 INFO  TransportalRestAPI:33 - Response Body ==> {"access_token":"exX5e-avG3fv_9wVTwEY17SOx4UdEINun5bxF4n86QguQybMkDjSo-WkE2fkgEUpLu9fvzRPD2QgQWvpD8lKIdFZLWFwkY2zkbMYk4tkGrQ5johHEE18Iy87dbcKMtWwtsbEfrEJPkMtBytMmfhXe0ByL00jDg-qAeSkPJ7MmGenCQcWtAH29J7QG81lECHcNtxho8ELKi1A40Awn-2uI5z8ZQ2armq3EoS9ZefwAfhP5p2qyStdyhcyxg21jhLAspvjIqpepgSjXy_OlOMOKaGaezEdPggiGLz4M4gNxtX-EbGqIHiwbfhM2_S6I08MNEXsLpdWnbSoUCKnOFcM_VEPt7l2YtNdSQKgyXIL3HV8v8-xhdL_z4uwWNbFEr_q2nTxlLIkuHPdQPyjPI2wqjy7Yh36tdJCFVMquxsfyP28WcVZQKGibkazKQW4i6GE63AvsQ6fae0YUKG4pOfe-lFhG-C5ts_PbmR8-n165vZnCcQLoKSsU_o_wXvaWpoD9TFg-0DzsKDHpUXU5x39TZB414NQ0L2KlnaiTVIchBmv0Au1mZTKlKHRrlytEggWtin7GeApoYyVffSr8WkoNBfk28UiABV_OsbhYWoHLiKJqN6DDlythHLou8bYnEuYHOi2FiBqfXIpwQvpYbAUXYP0dNFQJqOuCbey5sH_Y6Ei_ecotecN5HGDrrjkfA3NSG9B6QI1ysIyuZK4ku2Z5T7MRwRUP247Nh_9f7qojhs","email":"apple.admin@trans-portal.com","role":"1","fullName":"Apple Admin","userName":"Apple.admin","userId":"151","passwordUpdatedDate":"2020-11-20T00:00:00","userRole":"Super Admin","organizationID":"43","isOrganizationSetup":"0","organizationStepStatus":"","firstName":"Apple","lastName":"Admin","fileManagerID":1502,"filePath":"https://transportaldevstorage.blob.core.windows.net/images/151.jpg","fileName":"151.jpg","phone":"91604","countriesID":"233","corporateAddress":"1 Infinite Loop","corporateCity":"Cupertino","corporateState":"CA","corporateCountry":"United States","corporateZipCode":"95014","billingAddress":"St22","billingCity":"Oak Baker","billingState":"Illinois","billingCountry":"United States","billingZipCode":"97768","isCbcr":false,"regionID":5,"isEnterprise":true}
+2021-01-12 00:51:41 INFO  TransportalRestAPI:41 - ***** ValidateloginPage Status Code *****
+2021-01-12 00:51:41 INFO  TransportalRestAPI:43 - Status Code ==> 200
+2021-01-12 00:51:41 INFO  TransportalRestAPI:50 - ***** ValidateloginPage Status Line *****
+2021-01-12 00:51:41 INFO  TransportalRestAPI:52 - Status Line ==> HTTP/1.1 200 OK

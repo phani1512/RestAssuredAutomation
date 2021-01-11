@@ -22,6 +22,7 @@ public class TC_002_Post_ValidateHomePage extends TestBase{
 		JSONObject requestParams = new JSONObject();
 		requestParams.put("UserName","apple.admin");
 		requestParams.put("Password","admin@123");
+	
 		
 		httpRequest.header("Content-Type", "application/json");
 		

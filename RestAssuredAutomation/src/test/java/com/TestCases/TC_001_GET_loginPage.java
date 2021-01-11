@@ -47,7 +47,7 @@ public class TC_001_GET_loginPage extends TestBase{
 	}
 
 	// Response Time Verification
-	@Test
+	@Test(enabled = false)
 	void loginPageResponseTime() {
 		logger.info("***** loginPage Response Time *****");
 		long responseTime = response.getTime();
