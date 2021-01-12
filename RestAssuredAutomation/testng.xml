@@ -4,11 +4,18 @@
 	<listeners>
 		<listener class-name="com.utilities.Listeners" />
 	</listeners>
-	<test thread-count="5" name="TransportalAPITests">
+
+	<test name="TestCase2">
+		<parameter name="username" value="apple.admin" />
+		<parameter name="password" value="admin@123" />
+		<parameter name="baseURI"
+			value="https://transportalapi-ent.azurewebsites.net" />
+		<parameter name="Post" value="/api/Login/ValidateUser" />
 		<classes>
 			<class name="com.TestCases.TC_001_GET_loginPage" />
 			<class name="com.TestCases.TC_002_Post_ValidateHomePage" />
 			<class name="emailReport.EmailReport" />
 		</classes>
-	</test> <!-- Test -->
+	</test>
+
 </suite> <!-- Suite -->
