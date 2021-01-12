@@ -47,14 +47,14 @@ public class TC_001_GET_loginPage extends TestBase{
 	}
 
 	// Response Time Verification
-	@Test(enabled = false)
+	@Test
 	void loginPageResponseTime() {
 		logger.info("***** loginPage Response Time *****");
 		long responseTime = response.getTime();
 		logger.info("Response Time ==> " + responseTime);
 		if (responseTime > 2000)
 			logger.warn("Response Time is greater than 2000");
-		Assert.assertTrue(responseTime > 2000);
+		Assert.assertTrue(responseTime < 2000);
 
 	}
 

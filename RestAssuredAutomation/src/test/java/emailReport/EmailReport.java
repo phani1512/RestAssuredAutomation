@@ -59,11 +59,19 @@ public class EmailReport extends TestBase {
 			DataSource source = new FileDataSource(file);
 			messageBodyPart2.setDataHandler(new DataHandler(source));
 			messageBodyPart2.setFileName(fileName);
-
+			
+			MimeBodyPart messageBodyPart3 = new MimeBodyPart();
+			File file2 = new File("D:\\Git\\RestAssuredAutomation\\RestAssuredAutomation\\logs\\restAPI.log");
+			String fileName2 = "Test ReportAPI.log";
+			DataSource source2 = new FileDataSource(file2);
+			messageBodyPart3.setDataHandler(new DataHandler(source2));
+			messageBodyPart3.setFileName(fileName2);
+			
 			Multipart multipart = new MimeMultipart();
 
 			multipart.addBodyPart(messageBodyPart1);
 			multipart.addBodyPart(messageBodyPart2);
+			multipart.addBodyPart(messageBodyPart3);
 
 			message.setContent(multipart);
 
