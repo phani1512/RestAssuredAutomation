@@ -94,7 +94,8 @@ public class TC_001_GET_loginPage extends TestBase{
 	}
 	
 	@AfterClass
-	void tearDown() {
+	void tearDown() 
+	{
 		logger.info("***** Finished TC001_Get_URLPage *****");
 }
 }

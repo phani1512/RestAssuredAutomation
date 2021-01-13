@@ -5,7 +5,7 @@
 		<listener class-name="com.utilities.Listeners" />
 	</listeners>
 
-	<test name="TestCase2">
+	<test name="Transportal API tests">
 		<parameter name="username" value="apple.admin" />
 		<parameter name="password" value="admin@123" />
 		<parameter name="baseURI"
