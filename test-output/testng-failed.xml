@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TransportalRestAPISuite]">
+  <listeners>
+    <listener class-name="com.utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Transportal API tests(failed)">
+    <parameter name="password" value="admin@123"/>
+    <parameter name="Post" value="/api/Login/ValidateUser"/>
+    <parameter name="baseURI" value="https://transportalapi-ent.azurewebsites.net"/>
+    <parameter name="username" value="apple.admin"/>
+    <classes>
+      <class name="com.TestCases.TC_002_Post_ValidateHomePage">
+        <methods>
+          <include name="ValidateLoginResponseBody"/>
+          <include name="setup"/>
+          <include name="loadProperties"/>
+          <include name="ValidateLoginPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.TestCases.TC_002_Post_ValidateHomePage -->
+    </classes>
+  </test> <!-- Transportal API tests(failed) -->
+</suite> <!-- Failed suite [TransportalRestAPISuite] -->

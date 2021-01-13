@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TransportalRestAPISuite">
+              <span class="suite-name border-failed">TransportalRestAPISuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TransportalRestAPISuite">
+                    <span>D:\Git\RestAssuredAutomation\RestAssuredAutomation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TransportalRestAPISuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TransportalRestAPISuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TransportalRestAPISuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TransportalRestAPISuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TransportalRestAPISuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TransportalRestAPISuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TransportalRestAPISuite" class="hide-methods failed suite-TransportalRestAPISuite"> (hide)</a> <!-- hide-methods failed suite-TransportalRestAPISuite -->
+                      <a href="#" panel-name="suite-TransportalRestAPISuite" class="show-methods failed suite-TransportalRestAPISuite"> (show)</a> <!-- show-methods failed suite-TransportalRestAPISuite -->
+                    </span>
+                    <div class="method-list-content failed suite-TransportalRestAPISuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TransportalRestAPISuite" title="com.TestCases.TC_002_Post_ValidateHomePage" hash-for-method="ValidateLoginResponseBody">ValidateLoginResponseBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TransportalRestAPISuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TransportalRestAPISuite" class="hide-methods passed suite-TransportalRestAPISuite"> (hide)</a> <!-- hide-methods passed suite-TransportalRestAPISuite -->
+                      <a href="#" panel-name="suite-TransportalRestAPISuite" class="show-methods passed suite-TransportalRestAPISuite"> (show)</a> <!-- show-methods passed suite-TransportalRestAPISuite -->
+                    </span>
+                    <div class="method-list-content passed suite-TransportalRestAPISuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TransportalRestAPISuite" title="com.TestCases.TC_002_Post_ValidateHomePage" hash-for-method="ValidateLoginPageStatuscode">ValidateLoginPageStatuscode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TransportalRestAPISuite" title="com.TestCases.TC_002_Post_ValidateHomePage" hash-for-method="ValidateloginPageStatusLine">ValidateloginPageStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TransportalRestAPISuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TransportalRestAPISuite" class="panel TransportalRestAPISuite">
+          <div class="suite-TransportalRestAPISuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.TestCases.TC_002_Post_ValidateHomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateLoginResponseBody">
+                  </a> <!-- ValidateLoginResponseBody -->
+                  <span class="method-name">ValidateLoginResponseBody</span>
+                  <div class="stack-trace">java.lang.ClassCastException: io.restassured.internal.RestAssuredResponseImpl cannot be cast to io.restassured.path.json.JsonPath
+	at com.TestCases.TC_002_Post_ValidateHomePage.ValidateLoginResponseBody(TC_002_Post_ValidateHomePage.java:80)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TransportalRestAPISuite-class-failed -->
+          <div class="suite-TransportalRestAPISuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TestCases.TC_002_Post_ValidateHomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateLoginPageStatuscode">
+                  </a> <!-- ValidateLoginPageStatuscode -->
+                  <span class="method-name">ValidateLoginPageStatuscode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateloginPageStatusLine">
+                  </a> <!-- ValidateloginPageStatusLine -->
+                  <span class="method-name">ValidateloginPageStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TransportalRestAPISuite-class-passed -->
+        </div> <!-- panel TransportalRestAPISuite -->
+        <div panel-name="test-xml-TransportalRestAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Git\RestAssuredAutomation\RestAssuredAutomation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;TransportalRestAPISuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.utilities.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Transportal API tests&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;admin@123&quot;/&gt;
+    &lt;parameter name=&quot;Post&quot; value=&quot;/api/Login/ValidateUser&quot;/&gt;
+    &lt;parameter name=&quot;baseURI&quot; value=&quot;https://transportalapi-ent.azurewebsites.net&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;apple.admin&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.TestCases.TC_002_Post_ValidateHomePage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Transportal API tests --&gt;
+&lt;/suite&gt; &lt;!-- TransportalRestAPISuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TransportalRestAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TransportalRestAPISuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Transportal API tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TransportalRestAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TransportalRestAPISuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TransportalRestAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TransportalRestAPISuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TransportalRestAPISuite');
+function tableData_TransportalRestAPISuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ValidateLoginResponseBody')
+data.setCell(0, 2, 'com.TestCases.TC_002_Post_ValidateHomePage')
+data.setCell(0, 3, 23);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ValidateLoginPageStatuscode')
+data.setCell(1, 2, 'com.TestCases.TC_002_Post_ValidateHomePage')
+data.setCell(1, 3, 9);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ValidateloginPageStatusLine')
+data.setCell(2, 2, 'com.TestCases.TC_002_Post_ValidateHomePage')
+data.setCell(2, 3, 6);
+window.suiteTableData['TransportalRestAPISuite']= { tableData: data, tableDiv: 'times-div-TransportalRestAPISuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 38 ms</span>
+              <div id="times-div-TransportalRestAPISuite">
+              </div> <!-- times-div-TransportalRestAPISuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TransportalRestAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TransportalRestAPISuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TransportalRestAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TransportalRestAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TestCases.TC_002_Post_ValidateHomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loadProperties</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">ValidateLoginPage(apple.admin, admin@123, https://transportalapi-ent.azurewebsites.net, /api/Login/ValidateUser)</span>
+                <span class="method-start">43 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ValidateLoginPageStatuscode</span>
+                <span class="method-start">4375 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ValidateLoginResponseBody</span>
+                <span class="method-start">4393 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateloginPageStatusLine</span>
+                <span class="method-start">4420 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4428 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TransportalRestAPISuite">
+	<listeners>
+		<listener class-name="com.utilities.Listeners" />
+	</listeners>
+
+	<test name="Transportal API tests">
+		<parameter name="username" value="apple.admin" />
+		<parameter name="password" value="admin@123" />
+		<parameter name="baseURI"
+			value="https://transportalapi-ent.azurewebsites.net" />
+		<parameter name="Post" value="/api/Login/ValidateUser" />
+		<classes>
+		<!-- <class name="com.TestCases.TC_001_GET_loginPage" /> -->	
+			<class name="com.TestCases.TC_002_Post_ValidateHomePage" />
+			<!-- <class name="emailReport.EmailReport" /> -->
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->
